@@ -11,7 +11,7 @@ class MainKtTest {
         var summTranfers = priviewTrasfers + moneyTransfer
 
         val result = transfer(paymentMethod, moneyTransfer, summTranfers)
-        assertEquals(0, result)
+        assertEquals(5, result)
     }
 
     @Test
